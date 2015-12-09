@@ -49,7 +49,7 @@ module.exports = function(grunt) {
         var index = f.lastIndexOf('/');
         var fileName = f.substring(index+1);
         if(content.indexOf(fileName) === -1){
-           grunt.log.oklns(f + 'is invalid');
+           grunt.log.oklns(f + ' is invalid');
            grunt.file.copy(f,invalidPath + fileName);
            grunt.file.delete(f);
         }  

@@ -74,6 +74,6 @@ grunt.initConfig({
 ```
 
 ## Release History
- * 2015-12-09   v0.1.0   first publish
+ * 2015-12-09   v0.1.0~v0.1.2   first publish
 ----
 
